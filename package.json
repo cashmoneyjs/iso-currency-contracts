@@ -1,0 +1,38 @@
+{
+    "name": "@cashmoney/iso-currency-contracts",
+    "description": "Interfaces for ISO currency data.",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": "Matthew Gamble <git@matthewgamble.net>",
+    "devDependencies": {
+        "ts-node": "^8.6.2",
+        "typescript": "^3.7.5"
+    },
+    "scripts": {
+        "build": "tsc"
+    },
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "src/**/*.ts",
+        "dist/**/*.js",
+        "dist/**/*.d.ts",
+        "dist/**/*.js.map",
+        "tsconfig.json"
+    ],
+    "sideEffects": false,
+    "homepage": "https://github.com/cashmoneyjs/iso-currency-contracts",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cashmoneyjs/iso-currency-contracts.git"
+    },
+    "keywords": {
+        "cashmoney",
+        "money",
+        "currency",
+        "iso",
+        "iso4217",
+        "currencies",
+        "contracts"
+    }
+}
