@@ -1,7 +1,7 @@
 {
     "name": "@cashmoney/iso-currency-contracts",
     "description": "Shared interfaces for ISO currency data.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "author": "Matthew Gamble <git@matthewgamble.net>",
     "devDependencies": {
@@ -9,7 +9,7 @@
         "typescript": "^3.8.3"
     },
     "scripts": {
-        "build": "tsc"
+        "build": "tsc --module esnext"
     },
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
