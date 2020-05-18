@@ -5,8 +5,8 @@
     "license": "MIT",
     "author": "Matthew Gamble <git@matthewgamble.net>",
     "devDependencies": {
-        "ts-node": "^8.6.2",
-        "typescript": "^3.8.3"
+        "ts-node": "^8.10.1",
+        "typescript": "^3.9.2"
     },
     "scripts": {
         "build": "tsc --module esnext"
