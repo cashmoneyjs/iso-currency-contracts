@@ -9,7 +9,7 @@
         "typescript": "^3.9.2"
     },
     "scripts": {
-        "build": "tsc --module esnext"
+        "build": "tsc --module esnext --noEmitOnError"
     },
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
