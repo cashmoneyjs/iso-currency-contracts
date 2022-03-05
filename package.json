@@ -1,7 +1,7 @@
 {
     "name": "@cashmoney/iso-currency-contracts",
     "description": "Shared interfaces for ISO currency data.",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "license": "MIT",
     "author": "Matthew Gamble <git@matthewgamble.net>",
     "devDependencies": {
