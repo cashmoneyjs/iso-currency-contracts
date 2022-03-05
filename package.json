@@ -5,6 +5,7 @@
     "license": "MIT",
     "author": "Matthew Gamble <git@matthewgamble.net>",
     "devDependencies": {
+        "@types/node": "^16.10",
         "ts-node": "^10.2.0",
         "typescript": "^4.3.5"
     },
@@ -34,5 +35,6 @@
         "iso4217",
         "currencies",
         "contracts"
-    ]
+    ],
+    "packageManager": "yarn@3.2.0"
 }
