@@ -5,7 +5,7 @@ NODE_IMAGE_TEMPLATE = "node:{major}"
 def test(major_version):
     return {
         "kind": "pipeline",
-        "name": "build",
+        "name": "build-node{major}".format(major=major_version),
         "steps": [
             {
                 "name": "build",
